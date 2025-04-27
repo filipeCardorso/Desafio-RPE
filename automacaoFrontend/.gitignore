@@ -1,0 +1,36 @@
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs e relatórios
+*.log
+allure-results/
+surefire-reports/
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Selenium/Chrome
+chromedriver.log
+
+# Arquivos de ambiente
+.env

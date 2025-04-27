@@ -1,0 +1,139 @@
+# Arquivos compilados e diretórios de build
+target/
+bin/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Diretórios específicos do Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs e relatórios
+logs/
+*.log
+test-output/
+allure-results/
+.allure/
+reports/
+test-logs/
+
+# Arquivos de ambiente local e configurações
+application-local.properties
+application-dev.properties
+*-local.properties
+*.env
+.env
+
+# Credenciais e informações sensíveis
+credentials.json
+*.p12
+*.jks
+*.keystore
+*.pem
+*.key
+
+# Diretórios e arquivos específicos da IDE
+## IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+*.iws
+.idea_modules/
+out/
+
+## Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+.recommenders/
+.factorypath
+.springBeans
+
+## VS Code
+.vscode/
+.history/
+.ionide/
+
+## NetBeans
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+# Arquivos do sistema operacional
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Scripts específicos da aplicação
+cleanup.sh
+run-tests.sh
+
+# Diretórios e arquivos específicos da automação
+screenshots/
+downloads/
+videos/
+test-resources/local/
+surefire-reports/
+failsafe-reports/
+selenium-logs/
+browser-logs/
+performance-logs/
+
+# Arquivos gerados por frameworks específicos de teste
+.attach_pid*
+.testcontainers-tmp-*
+webdriver.log
+chromedriver.log
+geckodriver.log
+driver-binary-cache/
+
+# Arquivos de configuração local para geração de relatórios
+allure.properties
+
+# Diretórios de cache
+.gradle/
+.npm/
+.m2/
+
+# Arquivos de perfil
+.profiler/
+*.hprof
+*.jfr 

@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Esquema de Erro de Autenticação",
+  "description": "Esquema para validar respostas de erro de autenticação",
+  "type": "object",
+  "required": ["error"],
+  "properties": {
+    "error": {
+      "type": "string",
+      "description": "Mensagem de erro de autenticação"
+    },
+    "status": {
+      "type": "string",
+      "description": "Status do erro (opcional)"
+    },
+    "message": {
+      "type": "string",
+      "description": "Mensagem detalhada (opcional)"
+    },
+    "timestamp": {
+      "type": ["string", "number"],
+      "description": "Timestamp do erro (opcional)"
+    },
+    "path": {
+      "type": "string",
+      "description": "Caminho da requisição que gerou o erro (opcional)"
+    },
+    "code": {
+      "type": ["string", "integer"],
+      "description": "Código de erro (opcional)"
+    },
+    "how_to_get_one": {
+      "type": "string",
+      "description": "Instruções sobre como obter uma chave de API (específico para erros de API Key)"
+    }
+  },
+  "additionalProperties": true
+} 
